@@ -141,6 +141,7 @@ public class GappsUpdater extends Updater {
         }
         mCurrentServer = -1;
         fireCheckCompleted(null);
+        fireCheckError(false);
         return false;
     }
 

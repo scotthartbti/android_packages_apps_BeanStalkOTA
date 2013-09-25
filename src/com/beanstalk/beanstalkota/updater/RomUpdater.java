@@ -148,6 +148,7 @@ public class RomUpdater extends Updater {
         }
         mCurrentServer = -1;
         fireCheckCompleted(null);
+        fireCheckError(true);
         return false;
     }
 }
