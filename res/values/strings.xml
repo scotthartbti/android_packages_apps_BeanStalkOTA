@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright 2013 ParanoidAndroid Project
+  Copyright 2013 BeanStalk Project
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
   -->
 
 <resources>
-    <string name="app_name">Paranoid OTA</string>
+    <string name="app_name">BeanStalk OTA</string>
     <string name="slider_overview">Overview</string>
     <string name="slider_updates">Updates</string>
     <string name="slider_install">Install</string>
@@ -34,15 +34,15 @@
     <!-- OVERVIEW -->
     <string name="all_up_to_date">You\'re up to date!</string>
     <string name="rom_gapps_new_version">New versions found!</string>
-    <string name="update_to_aospa">Update to ParanoidAndroid!</string>
+    <string name="update_to_aospa">Update to BeanStalk!</string>
     <string name="rom_new_version">New rom version found!</string>
     <string name="gapps_new_version">New google apps version found!</string>
     <string name="rom_scanning">Checking for new versions...</string>
     <string name="gapps_version">Google apps %1$s</string>
     <string name="rom_outdated">Your ROM is outdated!</string>
-    <string name="update_rom_to_aospa">Update ROM to ParanoidAndroid!</string>
+    <string name="update_rom_to_aospa">Update ROM to BeanStalk!</string>
     <string name="gapps_outdated">Your google apps are outdated!</string>
-    <string name="update_gapps_to_aospa">Update google apps to ParanoidAndroid!</string>
+    <string name="update_gapps_to_aospa">Update google apps to BeanStalk!</string>
     <string name="no_rom_updates">No ROM updates found</string>
     <string name="no_gapps_updates">No google apps updates found</string>
     <string name="no_gapps_installed">Google apps not installed</string>
@@ -52,7 +52,7 @@
     <string name="check_gapps_updates_error">Error checking for google apps updates</string>
     <string name="no_updates">No updates found</string>
     <string name="check_for_updates_long">Check for updates</string>
-    <string name="system_update">A new system update was found and is ready to download.\nPlease check the notifications that may have appeared. They will lead you to ParanoidOTA from where you will be able to download and/or install the system update.\n\nNewest update(s) found:\n%1$s</string>
+    <string name="system_update">A new system update was found and is ready to download.\nPlease check the notifications that may have appeared. They will lead you to BeanStalkOTA from where you will be able to download and/or install the system update.\n\nNewest update(s) found:\n%1$s</string>
 
     <!-- DOWNLOADS/NOTIFICATIONS -->
     <string name="download_title">Downloading %1$s...</string>

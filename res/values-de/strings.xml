@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-  Translation for ParanoidOTA
-  Uebersetzung fuer ParanoidOTA
+  Translation for BeanStalkOTA
+  Uebersetzung fuer BeanStalkOTA
   -->
 
 <resources>
@@ -23,13 +23,13 @@
     <!-- OVERVIEW -->
     <string name="all_up_to_date">"Alles Aktuell!"</string>
     <string name="rom_gapps_new_version">"Neue Version gefunden!"</string>
-    <string name="update_to_aospa">"Update f&#252;r ParanoidAndroid verf&#252;gbar!"</string>
+    <string name="update_to_aospa">"Update f&#252;r BeanStalk verf&#252;gbar!"</string>
     <string name="rom_new_version">"Neue Rom-Version gefunden"</string>
     <string name="gapps_new_version">"Neue Google-Apps version gefunden"</string>
     <string name="rom_scanning">"&#220;berpr&#252;fe auf neue Versionen..."</string>
     <string name="gapps_version">"Google Apps %1$s"</string>
     <string name="rom_outdated">"Deine Rom ist veraltet!"</string>
-    <string name="update_rom_to_aospa">"Update Rom auf Paranoid Android!"</string>
+    <string name="update_rom_to_aospa">"Update Rom auf BeanStalk!"</string>
     <string name="gapps_outdated">"Deine Google-Apps sind veraltet!"</string>
     <string name="update_gapps_to_aospa">"Aktualisere Google Apps f&#252;r Paranpoid Android!"</string>
     <string name="no_rom_updates">"Keine Rom Update gefunden"</string>
@@ -41,7 +41,7 @@
     <string name="check_gapps_updates_error">"Fehler beim &#220;berpr&#252;fen auf neue Google Apps Version"</string>
     <string name="no_updates">"Keine Updates gefunden"</string>
     <string name="check_for_updates_long">"Auf Updates &#252;berpr&#252;fen"</string>
-    <string name="system_update">"Es wurde eine Update gefunden und steht zum Download bereit.\nBitte &#252;berpr&#252;fe die Benachrichtigung auf eine Neue Benachrichtung. Diese wird dich zu ParanoidAndroidOTA f&#252;hren, wo du dann das Update herunterladen kannst.\n\nNeue(s) Update(s) gefunden:\n%1$s"</string>
+    <string name="system_update">"Es wurde eine Update gefunden und steht zum Download bereit.\nBitte &#252;berpr&#252;fe die Benachrichtigung auf eine Neue Benachrichtung. Diese wird dich zu BeanStalkOTA f&#252;hren, wo du dann das Update herunterladen kannst.\n\nNeue(s) Update(s) gefunden:\n%1$s"</string>
     
     <!-- DOWNLOADS/NOTIFICATIONS -->
     <string name="download_title">"Lade herunter %1$s..."</string>

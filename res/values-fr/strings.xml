@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <!--
-  Translation for ParanoidOTA
-  Traduction pour ParanoidOTA
+  Translation for BeanStalkOTA
+  Traduction pour BeanStalkOTA
   -->
 
 <resources>
@@ -23,15 +23,15 @@
     <!-- OVERVIEW -->
     <string name="all_up_to_date">"Vous avez la dernière version !"</string>
     <string name="rom_gapps_new_version">"Nouvelle version trouvée !"</string>
-    <string name="update_to_aospa">"Mettre à jour ParanoidAndroid !"</string>
+    <string name="update_to_aospa">"Mettre à jour BeanStalk !"</string>
     <string name="rom_new_version">"Nouvelle version de la ROM trouvée !"</string>
     <string name="gapps_new_version">"Nouvelle version des Google Apps trouvée !"</string>
     <string name="rom_scanning">"Vérification des nouvelles versions..."</string>
     <string name="gapps_version">"Google Apps %1$s"</string>
     <string name="rom_outdated">"Votre ROM n\'est pas à jour !"</string>
-    <string name="update_rom_to_aospa">"Mettre à jour la ROM vers ParanoidAndroid !"</string>
+    <string name="update_rom_to_aospa">"Mettre à jour la ROM vers BeanStalk !"</string>
     <string name="gapps_outdated">"Vos Google Apps ne sont pas à jour !"</string>
-    <string name="update_gapps_to_aospa">"Mettre à jour les Google Apps vers ParanoidAndroid !"</string>
+    <string name="update_gapps_to_aospa">"Mettre à jour les Google Apps vers BeanStalk !"</string>
     <string name="no_rom_updates">"Pas de mise à jour de la ROM trouvée"</string>
     <string name="no_gapps_updates">"Pas de mise à jour des Google Apps"</string>
     <string name="no_gapps_installed">"Google Apps non installées"</string>
@@ -41,7 +41,7 @@
     <string name="check_gapps_updates_error">"Erreur pendant la recherche des mises à jour des Google Apps"</string>
     <string name="no_updates">"Aucune mise à jour trouvée"</string>
     <string name="check_for_updates_long">"Vérifier les mises à jour"</string>
-    <string name="system_update">"Une nouvelle mise à jour système a été trouvée et est prête à être téléchargée.\nVeuillez vérifier la notification qui a dû apparaître. Elle vous guidera jusqu\'à ParanoidOTA d\'où vous pourrez télécharger et/ou installer la mise à jour système.\n\nNouvelle(s) mise(s) à jour trouvée(s):\n%1$s"</string>
+    <string name="system_update">"Une nouvelle mise à jour système a été trouvée et est prête à être téléchargée.\nVeuillez vérifier la notification qui a dû apparaître. Elle vous guidera jusqu\'à BeanStalkOTA d\'où vous pourrez télécharger et/ou installer la mise à jour système.\n\nNouvelle(s) mise(s) à jour trouvée(s):\n%1$s"</string>
     
     <!-- DOWNLOADS/NOTIFICATIONS -->
     <string name="download_title">"Téléchargement de %1$s..."</string>

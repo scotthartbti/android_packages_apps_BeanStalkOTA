@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Copyright 2013 ParanoidAndroid Project
+  Copyright 2013 BeanStalk Project
 
   Licensed under the Apache License, Version 2.0 (the "License");
   you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@
   -->
 
 <resources>
-    <string name="app_name">Paranoid OTA</string>
+    <string name="app_name">BeanStalk OTA</string>
     <string name="slider_overview">Состояние</string>
     <string name="slider_updates">Обновления</string>
     <string name="slider_install">Установить</string>
@@ -34,15 +34,15 @@
     <!-- OVERVIEW -->
     <string name="all_up_to_date">У вас новейшее ПО!</string>
     <string name="rom_gapps_new_version">Найдены новые версии ПО!</string>
-    <string name="update_to_aospa">Обновиться до ParanoidAndroid!</string>
+    <string name="update_to_aospa">Обновиться до BeanStalk!</string>
     <string name="rom_new_version">Найдено обновление прошивки!</string>
     <string name="gapps_new_version">Найдено обновление Gapps!</string>
     <string name="rom_scanning">Поиск новых версий ПО...</string>
     <string name="gapps_version">Версия Gapps %1$s</string>
     <string name="rom_outdated">Ваша прошивка устарела!</string>
-    <string name="update_rom_to_aospa">Обновить прошивку до ParanoidAndroid!</string>
+    <string name="update_rom_to_aospa">Обновить прошивку до BeanStalk!</string>
     <string name="gapps_outdated">Приложения Google (Gapps) устарели!</string>
-    <string name="update_gapps_to_aospa">Обновить Gapps до ParanoidAndroid!</string>
+    <string name="update_gapps_to_aospa">Обновить Gapps до BeanStalk!</string>
     <string name="no_rom_updates">Обновления прошивки отсутствуют</string>
     <string name="no_gapps_updates">Обновления Gapps отсутствуют</string>
     <string name="no_gapps_installed">Приложения Google не установлены</string>
@@ -52,7 +52,7 @@
     <string name="check_gapps_updates_error">Ошибка проверки Gapps</string>
     <string name="no_updates">Обновления отсутствуют</string>
     <string name="check_for_updates_long">Проверить обновления</string>
-    <string name="system_update">Новое системное обновление найдено и готово к загрузке.\nПроверьте появившиеся уведомления, они проведут вас в ParanoidOTA, откуда вы сможете скачать и/или установить обновление.\n\nНайденные обновления:\n%1$s</string>
+    <string name="system_update">Новое системное обновление найдено и готово к загрузке.\nПроверьте появившиеся уведомления, они проведут вас в BeanStalkOTA, откуда вы сможете скачать и/или установить обновление.\n\nНайденные обновления:\n%1$s</string>
 
     <!-- DOWNLOADS/NOTIFICATIONS -->
     <string name="download_title">Загрузка %1$s...</string>

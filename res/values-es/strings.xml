@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-  Translation for ParanoidOTA
-  Traducción para ParanoidOTA
+  Translation for BeanStalkOTA
+  Traducción para BeanStalkOTA
   -->
 
 <resources>
-    <string name="app_name">Paranoid OTA</string>
+    <string name="app_name">BeanStalk OTA</string>
     <string name="slider_overview">General</string>
     <string name="slider_updates">Actualizaciones</string>
     <string name="slider_install">Instalar</string>
@@ -23,15 +23,15 @@
     <!-- OVERVIEW -->
     <string name="all_up_to_date">Estás actualizado!</string>
     <string name="rom_gapps_new_version">Se han encontrado nuevas versiones!</string>
-    <string name="update_to_aospa">Actualizar a ParanoidAndroid!</string>
+    <string name="update_to_aospa">Actualizar a BeanStalk!</string>
     <string name="rom_new_version">Nueva versión de la ROM!</string>
     <string name="gapps_new_version">Nueva versión de Google Apps!</string>
     <string name="rom_scanning">Buscando nuevas versiones...</string>
     <string name="gapps_version">Google apps %1$s</string>
     <string name="rom_outdated">Tu ROM está desactualizada!</string>
-    <string name="update_rom_to_aospa">Actualizar rom a ParanoidAndroid!</string>
+    <string name="update_rom_to_aospa">Actualizar rom a BeanStalk!</string>
     <string name="gapps_outdated">Tu Google Apps está desactualizada!</string>
-    <string name="update_gapps_to_aospa">Actualiza google apps a ParanoidAndroid!</string>
+    <string name="update_gapps_to_aospa">Actualiza google apps a BeanStalk!</string>
     <string name="no_rom_updates">No se han encontrado actualizaciones de la ROM</string>
     <string name="no_gapps_updates">No se han encontrado actualizaciones de Google Apps</string>
     <string name="no_gapps_installed">Google apps no instaladas</string>
@@ -41,7 +41,7 @@
     <string name="check_gapps_updates_error">Error buscando actualizaciones de Google Apps</string>
     <string name="no_updates">No hay actualizaciones</string>
     <string name="check_for_updates_long">Comprobar actualizaciones</string>
-    <string name="system_update">Se ha encontrado una actualización del sistema y está lista para descargar.\nPor favor, comprueba las notificaciones que han aparecido. Te llevarán a ParanoidOTA desde donde podrás descargar y / o instalar la actualización del sistema.\n\nActualizacion(es) nueva(s):\n%1$s</string>
+    <string name="system_update">Se ha encontrado una actualización del sistema y está lista para descargar.\nPor favor, comprueba las notificaciones que han aparecido. Te llevarán a BeanStalkOTA desde donde podrás descargar y / o instalar la actualización del sistema.\n\nActualizacion(es) nueva(s):\n%1$s</string>
 
     <!-- DOWNLOADS/NOTIFICATIONS -->
     <string name="download_title">Descargando %1$s...</string>
