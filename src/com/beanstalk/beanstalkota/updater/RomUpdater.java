@@ -25,12 +25,10 @@ import com.beanstalk.beanstalkota.Utils;
 import com.beanstalk.beanstalkota.helpers.SettingsHelper;
 import com.beanstalk.beanstalkota.http.URLStringReader;
 import com.beanstalk.beanstalkota.updater.server.GooServer;
-import com.beanstalk.beanstalkota.updater.server.PaServer;
 
 public class RomUpdater extends Updater {
 
     private static final Server[] SERVERS = {
-        new PaServer(),
         new GooServer()
     };
 
