@@ -223,8 +223,8 @@ public class DownloadFragment extends android.preference.PreferenceFragment impl
     }
 
     private int getOutdatedIconResourceId(boolean isRom) {
-        if (!Utils.weAreInAospa()) {
-            return isRom ? R.string.update_rom_to_aospa : R.string.update_gapps_to_aospa;
+        if (!Utils.weAreInBS()) {
+            return isRom ? R.string.update_rom_to_bs : R.string.update_gapps_to_bs;
         }
         return isRom ? R.string.rom_outdated : R.string.gapps_outdated;
     }

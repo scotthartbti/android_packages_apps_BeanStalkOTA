@@ -340,7 +340,7 @@ public class MainActivity extends Activity implements DownloadCallback, Notifica
 
     @Override
     public void checkError(boolean isRom) {
-        if (isRom && !Utils.weAreInAospa()) {
+        if (isRom && !Utils.weAreInBS()) {
             showNotFoundAlert();
         }
     }

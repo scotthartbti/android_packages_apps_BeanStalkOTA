@@ -23,15 +23,15 @@
     <!-- OVERVIEW -->
     <string name="all_up_to_date">Estás actualizado!</string>
     <string name="rom_gapps_new_version">Se han encontrado nuevas versiones!</string>
-    <string name="update_to_aospa">Actualizar a BeanStalk!</string>
+    <string name="update_to_bs">Actualizar a BeanStalk!</string>
     <string name="rom_new_version">Nueva versión de la ROM!</string>
     <string name="gapps_new_version">Nueva versión de Google Apps!</string>
     <string name="rom_scanning">Buscando nuevas versiones...</string>
     <string name="gapps_version">Google apps %1$s</string>
     <string name="rom_outdated">Tu ROM está desactualizada!</string>
-    <string name="update_rom_to_aospa">Actualizar rom a BeanStalk!</string>
+    <string name="update_rom_to_bs">Actualizar rom a BeanStalk!</string>
     <string name="gapps_outdated">Tu Google Apps está desactualizada!</string>
-    <string name="update_gapps_to_aospa">Actualiza google apps a BeanStalk!</string>
+    <string name="update_gapps_to_bs">Actualiza google apps a BeanStalk!</string>
     <string name="no_rom_updates">No se han encontrado actualizaciones de la ROM</string>
     <string name="no_gapps_updates">No se han encontrado actualizaciones de Google Apps</string>
     <string name="no_gapps_installed">Google apps no instaladas</string>

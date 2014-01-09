@@ -91,7 +91,7 @@ public class UpdateFragment extends Fragment implements UpdaterListener {
         if (mStatusView == null || context == null) {
             return;
         }
-        boolean weAreInAospa = Utils.weAreInAospa();
+        boolean weAreInBS = Utils.weAreInBS();
         Resources resources = context.getResources();
         if (mRomUpdater.isScanning() || mGappsUpdater.isScanning()) {
             mStatusView.setText(R.string.rom_scanning);
@@ -107,13 +107,13 @@ public class UpdateFragment extends Fragment implements UpdaterListener {
         } else {
             PackageInfo rom = roms != null && roms.length > 0 ? roms[0] : null;
             PackageInfo gapp = gapps != null && gapps.length > 0 ? gapps[0] : null;
-            if (weAreInAospa) {
+            if (weAreInBS) {
                 mStatusView.setText(rom != null && gapp != null ? R.string.rom_gapps_new_version
                         : (rom != null ? R.string.rom_new_version
                                 : (gapp != null ? R.string.gapps_new_version
                                         : R.string.all_up_to_date)));
             } else {
-                mStatusView.setText(R.string.update_to_aospa);
+                mStatusView.setText(R.string.update_to_bs);
             }
             if (rom != null) {
                 mRomView.setText(rom.getFilename());

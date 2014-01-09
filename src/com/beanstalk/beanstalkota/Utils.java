@@ -53,13 +53,13 @@ public class Utils {
     public static final String CHECK_DOWNLOADS_FINISHED = "com.beanstalk.beanstalkota.Utils.CHECK_DOWNLOADS_FINISHED";
     public static final String CHECK_DOWNLOADS_ID = "com.beanstalk.beanstalkota.Utils.CHECK_DOWNLOADS_ID";
     public static final String MOD_VERSION = "ro.modversion";
-    public static final String RO_PA = "ro.pa";
+    public static final String RO_BS = "ro.goo.developerid=beanstalk";
     public static final int ROM_ALARM_ID = 122303221;
     public static final int GAPPS_ALARM_ID = 122303222;
 
     public static PackageInfo[] sPackageInfosRom = new PackageInfo[0];
     public static PackageInfo[] sPackageInfosGapps = new PackageInfo[0];
-    private static int sWeAreInAospa = -1;
+    private static int sWeAreInBS = -1;
 
     public static class NotificationInfo implements Serializable {
 
@@ -200,13 +200,13 @@ public class Utils {
 
         int contentTitleResourceId = -1;
         if (infosRom.length > 0 && infosGapps.length > 0) {
-            contentTitleResourceId = !Utils.weAreInAospa() ? R.string.update_all_to_aospa
+            contentTitleResourceId = !Utils.weAreInBS() ? R.string.update_all_to_bs
                     : R.string.new_all_found_title;
         } else if (infosRom.length == 0) {
-            contentTitleResourceId = !Utils.weAreInAospa() ? R.string.update_gapps_to_aospa
+            contentTitleResourceId = !Utils.weAreInBS() ? R.string.update_gapps_to_bs
                     : R.string.new_gapps_found_title;
         } else {
-            contentTitleResourceId = !Utils.weAreInAospa() ? R.string.update_rom_to_aospa
+            contentTitleResourceId = !Utils.weAreInBS() ? R.string.update_rom_to_bs
                     : R.string.new_rom_found_title;
         }
 
@@ -267,12 +267,12 @@ public class Utils {
         return isSystemApp;
     }
 
-    public static boolean weAreInAospa() {
-        if (sWeAreInAospa == -1) {
-            String prop = getProp(RO_PA);
-            sWeAreInAospa = "true".equals(prop) ? 1 : 0;
+    public static boolean weAreInBS() {
+        if (sWeAreInBS == -1) {
+            String prop = getProp(RO_BS);
+            sWeAreInBS = "true".equals(prop) ? 1 : 0;
         }
-        return sWeAreInAospa == 1;
+        return sWeAreInBS == 1;
     }
 
     public static String su(String[] commands) {
