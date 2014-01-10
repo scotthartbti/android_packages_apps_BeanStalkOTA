@@ -54,7 +54,7 @@ public class GappsUpdater extends Updater {
             Properties properties = new Properties();
             try {
                 properties.load(new FileInputStream(file));
-                String versionProperty = "ro.addon.pa_version";
+                String versionProperty = "ro.addon.version";
                 String versionString = properties.getProperty(versionProperty);
                 if (versionString == null || "".equals(versionString) || versionProperty == null
                         || "".equals(versionProperty)) {

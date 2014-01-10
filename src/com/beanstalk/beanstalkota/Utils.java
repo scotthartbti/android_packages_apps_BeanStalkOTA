@@ -53,7 +53,7 @@ public class Utils {
     public static final String CHECK_DOWNLOADS_FINISHED = "com.beanstalk.beanstalkota.Utils.CHECK_DOWNLOADS_FINISHED";
     public static final String CHECK_DOWNLOADS_ID = "com.beanstalk.beanstalkota.Utils.CHECK_DOWNLOADS_ID";
     public static final String MOD_VERSION = "ro.modversion";
-    public static final String RO_BS = "ro.goo.developerid=beanstalk";
+    public static final String RO_BS = "ro.bs";
     public static final int ROM_ALARM_ID = 122303221;
     public static final int GAPPS_ALARM_ID = 122303222;
 
