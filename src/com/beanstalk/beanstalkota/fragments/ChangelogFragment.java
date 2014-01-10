@@ -31,7 +31,7 @@ import com.beanstalk.beanstalkota.R;
 public class ChangelogFragment extends Fragment {
 
     private static final String CHANGELOG_URL
-            = "https://plus.google.com/app/basic/107979589566958860409/posts";
+            = "http://www.scotthartbti.com/index.php/beanstalkbuilds";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
