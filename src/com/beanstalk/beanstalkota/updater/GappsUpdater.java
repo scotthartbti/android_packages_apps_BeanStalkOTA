@@ -32,7 +32,7 @@ import com.beanstalk.beanstalkota.updater.server.GooServer;
 public class GappsUpdater extends Updater {
 
     private static final Server[] SERVERS = {
-        new GooServer(false)
+        new GooServer()
     };
 
     private SettingsHelper mSettingsHelper;
@@ -63,8 +63,8 @@ public class GappsUpdater extends Updater {
                 }
                 mPlatform = Utils.getProp("ro.build.version.release");
                 mPlatform = mPlatform.replace(".", "");
-                while (mPlatform.length() < 3) {
-                    mPlatform = mPlatform + "0";
+                if (mPlatform.length() > 2) {
+                    mPlatform = mPlatform.substring(0, 2);
                 }
                 if (versionString == null || "".equals(versionString)) {
                     mCanUpdate = false;

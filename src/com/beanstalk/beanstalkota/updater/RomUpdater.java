@@ -29,7 +29,7 @@ import com.beanstalk.beanstalkota.updater.server.GooServer;
 public class RomUpdater extends Updater {
 
     private static final Server[] SERVERS = {
-        new GooServer(true)
+        new GooServer()
     };
 
     private SettingsHelper mSettingsHelper;
