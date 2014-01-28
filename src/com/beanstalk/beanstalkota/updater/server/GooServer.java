@@ -37,6 +37,11 @@ public class GooServer implements Server {
     private String mDevice = null;
     private String mError = null;
     private long mVersion = 0L;
+    private boolean mIsRom;
+
+    public GooServer(boolean isRom) {
+        mIsRom = isRom;
+    }
 
     @Override
     public String getUrl(String device, long version) {
@@ -68,15 +73,18 @@ public class GooServer implements Server {
                     String stripped = filename.replace(".zip", "");
                     stripped = stripped.replace("-signed", "");
                     String[] parts = stripped.split("-");
-                    boolean isNew = parts.length < 2 ? true : parts[parts.length - 2]
-                            .matches("[-+]?\\d*\\.?\\d+");
+                    int part = parts.length - 2;
+                    if (parts[part].startsWith("RC")) {
+                        part = parts.length - 1;
+                    }
+                    boolean isNew = parts[parts.length - 1].matches("[-+]?\\d*\\.?\\d+");
                     if (!isNew) {
                         continue;
                     }
                     long version = Utils.parseRomVersion(filename);
                     if (version > mVersion) {
                         list.add(new UpdatePackage(mDevice, filename, version, "0", "http://goo.im"
-                                + file.getString("path"), file.getString("md5"), false));
+                                + file.getString("path"), file.getString("md5"), mIsRom));
                     }
                 }
             }

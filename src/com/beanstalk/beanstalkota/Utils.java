@@ -53,7 +53,7 @@ public class Utils {
     public static final String CHECK_DOWNLOADS_FINISHED = "com.beanstalk.beanstalkota.Utils.CHECK_DOWNLOADS_FINISHED";
     public static final String CHECK_DOWNLOADS_ID = "com.beanstalk.beanstalkota.Utils.CHECK_DOWNLOADS_ID";
     public static final String MOD_VERSION = "ro.modversion";
-    public static final String RO_BS = "ro.bs";
+    public static final String RO_CM_VERSION = "ro.cm.version";
     public static final int ROM_ALARM_ID = 122303221;
     public static final int GAPPS_ALARM_ID = 122303222;
 
@@ -269,8 +269,8 @@ public class Utils {
 
     public static boolean weAreInBS() {
         if (sWeAreInBS == -1) {
-            String prop = getProp(RO_BS);
-            sWeAreInBS = "true".equals(prop) ? 1 : 0;
+            String prop = getProp(RO_CM_VERSION);
+            sWeAreInBS = prop == null || "".equals(prop) ? 0 : 1;
         }
         return sWeAreInBS == 1;
     }
