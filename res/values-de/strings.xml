@@ -6,42 +6,42 @@
   -->
 
 <resources>
-    <string name="slider_overview">"&#220;bersicht"</string>
+    <string name="slider_overview">"Übersicht"</string>
     <string name="slider_updates">"Updates"</string>
     <string name="slider_install">"Installieren"</string>
-    <string name="slider_changelog">"Versions&#228;nderungen"</string>
+    <string name="slider_changelog">"Änderungsprotokoll"</string>
     <string name="action_settings">"Einstellungen"</string>
-    <string name="drawer_open">"&#214;ffne Navigation"</string>
+    <string name="drawer_open">"Öffne Navigation"</string>
     <string name="drawer_close">"Schließe Navigation"</string>
     <string name="check_for_updates">"Nach Updates suchen"</string>
-    <string name="changelog_error">"Versions&#228;nderungen konnten nicht geladen werden!"</string>
+    <string name="changelog_error">"Änderungsprotokoll konnte nicht geladen werden!"</string>
 <!--    <string name="rom">"ROM"</string> -->
 <!--    <string name="gapps">"Google Apps"</string> -->
     <string name="local">"Heruntergeladene Datein"</string>
-    <string name="extras">"Zus&#228;tzliche Datein"</string>
+    <string name="extras">"Extra Einstellungen"</string>
     
     <!-- OVERVIEW -->
     <string name="all_up_to_date">"Alles Aktuell!"</string>
     <string name="rom_gapps_new_version">"Neue Version gefunden!"</string>
-    <string name="update_to_bs">"Update f&#252;r BeanStalk verf&#252;gbar!"</string>
+    <string name="update_to_bs">"Update für BeanStalk verfügbar!"</string>
     <string name="rom_new_version">"Neue Rom-Version gefunden"</string>
     <string name="gapps_new_version">"Neue Google-Apps version gefunden"</string>
-    <string name="rom_scanning">"&#220;berpr&#252;fe auf neue Versionen..."</string>
-    <string name="gapps_version">"Google Apps %1$s"</string>
+    <string name="rom_scanning">"Überprüfe auf neue Versionen..."</string>
+    <string name="gapps_version">"Google Apps Version"</string>
     <string name="rom_outdated">"Deine Rom ist veraltet!"</string>
     <string name="update_rom_to_bs">"Update Rom auf BeanStalk!"</string>
     <string name="gapps_outdated">"Deine Google-Apps sind veraltet!"</string>
-    <string name="update_gapps_to_bs">"Aktualisere Google Apps f&#252;r Paranpoid Android!"</string>
+    <string name="update_gapps_to_bs">"Aktuallisiere Google Apps für BeanStalk"</string>
     <string name="no_rom_updates">"Keine Rom Update gefunden"</string>
     <string name="no_gapps_updates">"Keine Google Apps Updates gefunden"</string>
     <string name="no_gapps_installed">"Google Apps sind nicht installiert"</string>
     <string name="check_rom_updates_no_new">"Keine Rom Update gefunden"</string>
-    <string name="check_rom_updates_error">"Fehler beim &#220;berpr&#252;fen auf neue Rom Version"</string>
+    <string name="check_rom_updates_error">"Fehler beim Überprüfen auf neue Rom Version"</string>
     <string name="check_gapps_updates_no_new">"Keine Google Apps Updates gefunden"</string>
-    <string name="check_gapps_updates_error">"Fehler beim &#220;berpr&#252;fen auf neue Google Apps Version"</string>
+    <string name="check_gapps_updates_error">"Fehler beim Überprüfen auf neue Google Apps Version"</string>
     <string name="no_updates">"Keine Updates gefunden"</string>
-    <string name="check_for_updates_long">"Auf Updates &#252;berpr&#252;fen"</string>
-    <string name="system_update">"Es wurde eine Update gefunden und steht zum Download bereit.\nBitte &#252;berpr&#252;fe die Benachrichtigung auf eine Neue Benachrichtung. Diese wird dich zu BeanStalkOTA f&#252;hren, wo du dann das Update herunterladen kannst.\n\nNeue(s) Update(s) gefunden:\n%1$s"</string>
+    <string name="check_for_updates_long">"Auf Updates Überprüfen"</string>
+    <string name="system_update">"Es wurde eine Update gefunden und steht zum Download bereit.\Bitte Überprüfe die Benachrichtigung auf eine Neue Benachrichtung. Diese wird dich zu BeanStalkOTA führen, wo du dann das Update herunterladen kannst.\Neue(s) Update(s) gefunden"</string>
     
     <!-- DOWNLOADS/NOTIFICATIONS -->
     <string name="download_title">"%1$s..."</string>
@@ -50,20 +50,20 @@
 <!--    <string name="new_package_name">"%1$s"</string> -->
     <string name="new_packages">"%1$s Aktulasierungen zum Download bereit"</string>
     <string name="cancel_download_alert_title">"Download Abbrechen"</string>
-    <string name="cancel_rom_download_alert_summary">"M&#246;chtest du den Download der Rom abbrechen?"</string>
-    <string name="cancel_gapps_download_alert_summary">"M&#246;chtest du das Download der Google Apps abbrechen?"</string>
+    <string name="cancel_rom_download_alert_summary">"Möchtest du den Download der Rom abbrechen?"</string>
+    <string name="cancel_gapps_download_alert_summary">"Möchtest du das Download der Google Apps abbrechen?"</string>
     <string name="cancel_download_alert_yes">"Ja"</string>
     <string name="cancel_download_alert_no">"Nein"</string>
     <string name="already_downloading_rom">"Du ladest die Rom bereits herunter."</string>
     <string name="already_downloading_gapps">"Du ladest die Google Apps bereits herunter"</string>
     <string name="calculating_md5">"Berechne MD5 Summe..."</string>
-    <string name="md5_mismatch">"MD5 Summe stimmen nicht &#252;berein"</string>
+    <string name="md5_mismatch">"MD5 Summe stimmen nicht Überein"</string>
     <string name="md5_mismatch_summary">"Erhalten:\n%1$s\n\nBerechnet:\n%2$s"</string>
     <string name="md5_install_anyway">"Trotzdem Installieren"</string>
     <string name="update_no_local_files">"Keine Updates gefunden"</string>
-    <string name="update_no_local_files_summary">"Schaue im &#220;bersichts-Tab nach Updates"</string>
-    <string name="update_no_extra_files">"Keine zus&#228;tzlichen Datein angegeben"</string>
-    <string name="update_no_extra_files_summary">"Dr&#252;cke den + Knopf zum hinzuf&#252;gen weiterer ZIP-Dateien zum flashen"</string>
+    <string name="update_no_local_files_summary">"Schaue im Übersichts-Tab nach Updates"</string>
+    <string name="update_no_extra_files">"Keine zusätzlichen Datein angegeben"</string>
+    <string name="update_no_extra_files_summary">"Drücke den + Knopf zum hinzufügen weiterer ZIP-Dateien zum flashen"</string>
     
     <!-- DOWNLOAD ERRORS -->
     <string name="error_cannot_resume">"Fehler: Der Download konnte nicht fortgesetzt werden"</string>
